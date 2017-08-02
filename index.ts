@@ -113,9 +113,7 @@ inquirer.prompt(questions).then((answers: IAnswers) => {
     console.log(`P1 [score=${score}]`);
   } else if (score >= 3) {
     console.log(`P2 [score=${score}]`);
-  } else if (score >= 2) {
-    console.log(`P3 [score=${score}]`);
   } else {
-    console.log(`P4 [score=${score}]`);
+    console.log(`P3 [score=${score}]`);
   }
 });
